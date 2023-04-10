@@ -1,0 +1,272 @@
+CRITICAL - 2021-04-06 03:48:05 --> pager_pengumuman is not a valid Pager template.
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Pager\Pager.php(154): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('pager_pengumuma...')
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Pager\Pager.php(93): CodeIgniter\Pager\Pager->displayLinks('pengumuman', 'pager_pengumuma...')
+#2 C:\laragon\www\CI4SISFORDES-KB\app\Views\administrator\admpengumuman.php(34): CodeIgniter\Pager\Pager->links('pengumuman', 'pager_pengumuma...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('administrator/a...', Array, true)
+#6 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(350): view('administrator/a...')
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->pengumuman()
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2021-04-06 03:48:51 --> Invalid file: App\Views\Pagers\pengumumanpager.php
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pager...')
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Pager\Pager.php(158): CodeIgniter\View\View->render('App\\Views\\Pager...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Pager\Pager.php(93): CodeIgniter\Pager\Pager->displayLinks('pengumuman', 'pager_pengumuma...')
+#3 C:\laragon\www\CI4SISFORDES-KB\app\Views\administrator\admpengumuman.php(34): CodeIgniter\Pager\Pager->links('pengumuman', 'pager_pengumuma...')
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('administrator/a...', Array, true)
+#7 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(350): view('administrator/a...')
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->pengumuman()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2021-04-06 04:11:49 --> Trying to access array offset on value of type null
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\laragon\\www\\...', 154, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->hapusgalery('3')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-04-06 04:22:39 --> Trying to access array offset on value of type null
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\laragon\\www\\...', 154, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->hapusgalery('3')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-04-06 04:26:09 --> Trying to access array offset on value of type null
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\laragon\\www\\...', 154, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->hapusgalery('3')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-04-06 04:48:51 --> Invalid file: pages/surat.php
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/surat.php')
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/surat', Array, true)
+#2 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(150): view('pages/surat')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->Surat()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-04-06 05:39:11 --> Cannot declare class App\Controllers\Administrator, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-06 05:39:33 --> Cannot declare class App\Controllers\Administrator, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-06 05:40:21 --> Cannot declare class App\Controllers\Administrator, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-06 06:20:58 --> Undefined variable: pengumuman
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 10, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(51): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-06 06:22:04 --> Undefined variable: pengumuman
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 11, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(51): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-06 06:22:19 --> Undefined variable: pengumuman
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 10, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(51): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-06 06:24:30 --> Undefined variable: pengumuman
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 45, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-04-06 06:26:29 --> Undefined index: isipengumuman
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 10, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(52): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-06 06:29:04 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 504 Gateway Time-out
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 20, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(20): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(53): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-06 06:29:14 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 504 Gateway Time-out
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 20, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(20): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(53): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-06 06:29:28 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 504 Gateway Time-out
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 20, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(20): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(53): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-06 06:34:16 --> Call to a member function orderBy() on array
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-06 06:35:11 --> Call to a member function orderBy() on array
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-06 06:35:42 --> Too few arguments to function App\Controllers\Pages::index(), 0 passed in C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-06 06:52:33 --> Undefined variable: validation
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\aspirasi.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 12, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/aspirasi', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(147): view('pages/aspirasi')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->Aspirasi()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-06 06:54:44 --> Undefined variable: validation
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\aspirasi.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 12, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/aspirasi', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(147): view('pages/aspirasi')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->Aspirasi()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-06 07:06:09 --> Undefined variable: validation
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\aspirasi.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/aspirasi', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(147): view('pages/aspirasi')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->Aspirasi()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2021-04-06 07:18:18 --> mysqli_sql_exception: Unknown column 'judulaspirasi' in 'field list' in C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `as...')
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(218): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->simpanaspirasi()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#11 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2021-04-06 07:18:18 --> Unknown column 'judulaspirasi' in 'field list'
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `as...')
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(218): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->simpanaspirasi()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#11 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2021-04-06 07:51:07 --> Undefined variable: pengumuman
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\administrator\admaspirasi_detail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 9, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('administrator/a...', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(525): view('administrator/a...')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->detailaspirasi('website-bagus-t...')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}

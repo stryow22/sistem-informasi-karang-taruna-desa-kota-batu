@@ -1,0 +1,123 @@
+ <?php
+//api kawalcorona
+// $url = file_get_contents('https://api.kawalcorona.com/indonesia/');
+// $data = json_decode($url, true);
+
+// $urlp = file_get_contents('https://indonesia-covid-19.mathdro.id/api/provinsi/');
+// $urlp = utf8_encode($urlp);
+// $dataprov = json_decode($urlp, true);
+?>
+ 
+ <div class="container">
+        <div class="container col-10 col-md-10 col-sm-12 covid">
+            <center>
+                <h3 class="cov-jud">COVID-19 DI INDONESIA</h3>
+            </center>
+            <div class="row">
+                <div class="card text-white bg-warning col-lg cov-pos">
+                    <div class="cov-head">Positif</div>
+                    <div class="card-body">
+                        <h5 class="card-title"><?= $data[0]['positif'] . " Orang"; ?></h5>
+                    </div>
+                </div>
+                <div class="card text-white bg-success col-lg cov-sb">
+                    <div class="cov-head">Sembuh</div>
+                    <div class="card-body">
+                        <h5 class="card-title"><?= $data[0]['sembuh'] . " Orang"; ?></h5>
+                    </div>
+                </div>
+                <div class="card text-white bg-danger col-lg cov-mg">
+                    <div class="cov-head">Meninggal</div>
+                    <div class="card-body">
+                        <h5 class="card-title"><?= $data[0]['meninggal'] . " Orang"; ?></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <!-- CORONA SECTION -->
+    <?php
+    //api kawalcorona
+    $urlp = file_get_contents('https://apicovid19indonesia-v2.vercel.app/api/indonesia');
+    $urlp = utf8_encode($urlp);
+    $data = json_decode($urlp, true);
+
+    // $urlp = file_get_contents('https://indonesia-covid-19.mathdro.id/api/provinsi/');
+    // $urlp = utf8_encode($urlp);
+    // $dataprov = json_decode($urlp, true);
+    ?>
+
+    <div class="container">
+        <div class="container col-10 col-md-10 col-sm-12 covid">
+            <center>
+                <h3 class="cov-jud">COVID-19 DI INDONESIA</h3>
+            </center>
+            <div class="row">
+                <div class="card text-white bg-warning col-lg cov-pos">
+                    <div class="cov-head">Positif</div>
+                    <div class="card-body">
+                        <h5 class="card-title"><?= $data['positif'] . " Orang"; ?></h5>
+                    </div>
+                </div>
+                <div class="card text-white bg-success col-lg cov-sb">
+                    <div class="cov-head">Sembuh</div>
+                    <div class="card-body">
+                        <h5 class="card-title"><?= $data['sembuh'] . " Orang"; ?></h5>
+                    </div>
+                </div>
+                <div class="card text-white bg-danger col-lg cov-mg">
+                    <div class="cov-head">Meninggal</div>
+                    <div class="card-body">
+                        <h5 class="card-title"><?= $data['meninggal'] . " Orang"; ?></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CORONA SECTION END -->
+
+
+
+CORONA SECTION NEWWWW
+    <?php
+    //api kawalcorona
+    $url = file_get_contents('https://api.kawalcorona.com/indonesia/');
+    $data = json_decode($url, true);
+
+    // $urlp = file_get_contents('https://indonesia-covid-19.mathdro.id/api/provinsi/');
+    // $urlp = utf8_encode($urlp);
+    // $dataprov = json_decode($urlp, true);
+    ?>
+
+    <div class="container">
+        <div class="container col-10 col-md-10 col-sm-12 covid">
+            <center>
+                <h3 class="cov-jud">COVID-19 DI INDONESIA</h3>
+            </center>
+            <div class="row">
+                <div class="card text-white bg-warning col-lg cov-pos">
+                    <div class="cov-head">Positif</div>
+                    <div class="card-body">
+                        <h5 class="card-title"><?= $data[0]['positif'] . " Orang"; ?></h5>
+                    </div>
+                </div>
+                <div class="card text-white bg-primary col-lg cov-sb">
+                    <div class="cov-head">Sembuh</div>
+                    <div class="card-body">
+                        <h5 class="card-title"><?= $data[0]['sembuh'] . " Orang"; ?></h5>
+                    </div>
+                </div>
+                <div class="card text-white bg-danger col-lg cov-mg">
+                    <div class="cov-head">Meninggal</div>
+                    <div class="card-body">
+                        <h5 class="card-title"><?= $data[0]['meninggal'] . " Orang"; ?></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+

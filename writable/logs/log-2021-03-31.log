@@ -1,0 +1,590 @@
+CRITICAL - 2021-03-31 00:05:39 --> Invalid file: administrator/admgalery_detail.php
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administrator/a...')
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('administrator/a...', Array, true)
+#2 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(54): view('administrator/a...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->detail('pengabdian-masy...')
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-03-31 00:24:42 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-31 00:25:44 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-31 00:26:44 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-31 00:26:56 --> Undefined variable: galery
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\galery.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/galery', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(73): view('pages/galery')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->Galery()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-03-31 00:27:59 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-31 00:28:22 --> Undefined variable: data
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(13): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-03-31 00:28:28 --> Undefined variable: galery
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\galery.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/galery', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(73): view('pages/galery')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->Galery()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-03-31 00:28:29 --> Undefined variable: data
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(13): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-03-31 00:31:32 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-31 00:32:36 --> file_get_contents(https://api.kawalcorona.com/indonesia/): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 15, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(15): file_get_contents('https://api.kaw...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(13): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-03-31 00:33:40 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-31 00:33:40 --> Undefined variable: data
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(13): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-03-31 00:34:50 --> Undefined variable: data
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(13): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-03-31 00:34:52 --> Undefined variable: data
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(13): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-03-31 00:36:28 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-31 00:36:43 --> Undefined variable: galery
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\galery.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/galery', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(73): view('pages/galery')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->Galery()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-03-31 00:37:31 --> Undefined variable: galery
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\galery.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 17, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/galery', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(73): view('pages/galery')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->Galery()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-03-31 00:44:12 --> Undefined variable: no
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\galery.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 20, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/galery', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(88): view('pages/galery')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->Galery()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-03-31 00:55:29 --> Undefined variable: galery
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 110, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(27): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-03-31 00:56:00 --> Undefined variable: galery
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 110, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(27): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-03-31 00:56:02 --> Undefined variable: galery
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 110, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(27): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-03-31 02:24:49 --> Invalid file: administrator/admgalery_tambah.php
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administrator/a...')
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('administrator/a...', Array, true)
+#2 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(64): view('administrator/a...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->tambahGalery()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-03-31 02:25:23 --> Invalid file: administrator/admgalery_tambah.php
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administrator/a...')
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('administrator/a...', Array, true)
+#2 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(64): view('administrator/a...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->tambahgalery()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-03-31 02:56:15 --> syntax error, unexpected 'return' (T_RETURN)
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('administrator/t...')
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('administrator/t...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 02:56:38 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 75
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(75): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 02:59:47 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 75
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(75): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 03:03:34 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 75
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(75): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 03:05:25 --> syntax error, unexpected ''slug_galery'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE)
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Gale...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Gale...')
+#3 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(18): spl_autoload_call('App\\Models\\Gale...')
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Administrator->__construct()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2021-03-31 03:05:29 --> syntax error, unexpected ''slug_galery'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE)
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Gale...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Gale...')
+#3 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(18): spl_autoload_call('App\\Models\\Gale...')
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Administrator->__construct()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2021-03-31 03:05:30 --> syntax error, unexpected ''slug_galery'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE)
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Gale...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Gale...')
+#3 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(18): spl_autoload_call('App\\Models\\Gale...')
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Administrator->__construct()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2021-03-31 03:07:00 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 75
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(75): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 03:07:39 --> syntax error, unexpected '$this' (T_VARIABLE), expecting ')'
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('administrator/s...')
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('administrator/s...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 03:08:07 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 75
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(75): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 03:09:55 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 75
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(75): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 03:10:00 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 75
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(75): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 03:19:05 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 75
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(75): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 03:34:53 --> Undefined variable: validation
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\administrator\admgalery_tambah.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 12, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('administrator/a...', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(69): view('administrator/a...')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->tambahgalery()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-03-31 03:36:31 --> Undefined variable: validation
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\administrator\admgalery_tambah.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 12, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('administrator/a...', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(69): view('administrator/a...')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->tambahgalery()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-03-31 03:36:33 --> Undefined variable: validation
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\administrator\admgalery_tambah.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 12, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('administrator/a...', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(69): view('administrator/a...')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->tambahgalery()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-03-31 03:46:08 --> Undefined index: deskripsi_galery
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\administrator\admgalery_detail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('administrator/a...', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(58): view('administrator/a...')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->detailGalery('pengabdian-masy...')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-03-31 03:51:06 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 75
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(75): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 03:59:24 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 75
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(75): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 03:59:49 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 75
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(75): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 04:01:26 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 75
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(75): url_title(NULL, '%', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 04:01:42 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 75
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(75): url_title(NULL, '_', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 04:06:32 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 75
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(75): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 04:06:36 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 75
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(75): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 04:10:25 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 75
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(75): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 04:10:33 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 75
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(75): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 04:17:40 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 76
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(76): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 04:19:13 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 76
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(76): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 04:19:15 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 76
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(76): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 04:19:18 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 76
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(76): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 04:21:44 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 76
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(76): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 04:24:35 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 76
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(76): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 04:25:34 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 76
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(76): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 04:27:22 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 75
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(75): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 04:27:24 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 75
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(75): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 04:27:30 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php on line 75
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(75): url_title(NULL, '-', true)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpangalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 04:54:31 --> syntax error, unexpected '}', expecting ';'
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('administrator/t...')
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('administrator/t...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-03-31 07:46:39 --> Undefined variable: gal
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\administrator\admberita.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 25, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('administrator/a...', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(114): view('administrator/a...')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->berita()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-03-31 08:08:22 --> Undefined variable: data
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(28): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-03-31 08:15:14 --> Undefined offset: 0
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(28): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-03-31 08:16:07 --> Undefined offset: 0
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(28): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}

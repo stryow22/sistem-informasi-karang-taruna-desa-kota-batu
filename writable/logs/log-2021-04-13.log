@@ -1,0 +1,573 @@
+CRITICAL - 2021-04-13 10:38:04 --> Trying to access array offset on value of type null
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\laragon\\www\\...', 159, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->hapusgalery('2')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-04-13 10:41:00 --> Trying to access array offset on value of type null
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\laragon\\www\\...', 159, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->hapusgalery('3')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-04-13 10:47:15 --> Argument 2 passed to CodeIgniter\Validation\Rules::is_unique() must be of the type string, null given, called in C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Validation\Validation.php on line 306
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Validation\Validation.php(306): CodeIgniter\Validation\Rules->is_unique('Berita Terbaru ...', NULL)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('judulberita', 'judulberita', 'Berita Terbaru ...', Array, Array)
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(313): CodeIgniter\Controller->validate(Array)
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpanberita()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2021-04-13 11:07:44 --> Undefined variable: berita
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 66, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(64): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-13 11:08:40 --> Undefined variable: berita
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 66, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(83): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-13 11:29:53 --> Undefined variable: row
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 75, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-13 11:37:37 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 504 Gateway Time-out
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 11:54:31 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 11:54:34 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 11:54:45 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 11:54:50 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 11:54:59 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 11:55:04 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 11:55:06 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 11:55:17 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 11:55:32 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 11:55:35 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 11:55:36 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 11:55:37 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 11:55:45 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 11:55:47 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 11:55:55 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 11:56:06 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 11:56:29 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 11:57:16 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 11:57:20 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 11:57:30 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 11:58:21 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 11:58:23 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 11:58:24 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 12:00:49 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 12:07:07 --> Trying to get property 'judulberita' of non-object
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 56, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-13 12:28:40 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 20, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(20): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 12:32:42 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 13:23:38 --> file_get_contents(https://apicovid19indonesia-v2.vercel.app/api/indonesia): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(19): file_get_contents('https://apicovi...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-13 13:23:56 --> Undefined variable: data
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 35, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-13 13:25:37 --> Undefined variable: urlp
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 20, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-13 13:25:55 --> Trying to access array offset on value of type int
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\laragon\\www\\...', 36, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-13 16:55:09 --> Invalid file: pages/berita_detail.php
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/berita_de...')
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/berita_de...', Array, true)
+#2 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(188): view('pages/berita_de...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->detailberita('info-gempa-terk...')
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-04-13 17:06:07 --> Undefined variable: ber
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\berita_detail.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 5, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/berita_de...', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(188): view('pages/berita_de...')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->detailberita('info-gempa-terk...')
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-13 22:22:22 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-13 22:25:02 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-13 22:26:03 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-13 22:30:08 --> Undefined variable: ber
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 60, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-13 22:30:18 --> Undefined index: slugberita
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 60, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(67): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-13 23:28:46 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-13 23:31:46 --> array_key_exists(): The first argument should be either a string or an integer
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_key_exist...', 'C:\\laragon\\www\\...', 741, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\BaseModel.php(741): array_key_exists(Array, Array)
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(368): CodeIgniter\BaseModel->save(Array)
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->simpanberita()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}

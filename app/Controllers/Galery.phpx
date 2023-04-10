@@ -1,0 +1,33 @@
+<?php
+
+namespace App\Controllers;
+
+// connect model
+use App\Models\GaleryModel;
+
+// end connect
+
+class Galery extends BaseController
+{
+    // Pewarisan Connect Model
+    // Tambah protected variable kalo ada model baru
+    protected $galeryModel;
+    public function __construct()
+    {
+        // tambah xxxxModel = new XxxxModel()
+        $this->galeryModel = new GaleryModel();
+    }
+
+    public function index()
+    {
+        $galery = $this->galeryModel->findAll();
+        $data = [
+            'title' => 'Galery | Admin Pemerintah Desa Kota Batu',
+            'galery' => $galery
+        ];
+
+        echo view('layout/admheader', $data);
+        echo view('administrator/admgalery');
+        echo view('layout/admfooter');
+    }
+}

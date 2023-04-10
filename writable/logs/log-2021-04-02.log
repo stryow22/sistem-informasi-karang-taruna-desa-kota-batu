@@ -1,0 +1,263 @@
+ERROR - 2021-04-02 00:53:41 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-04-02 00:53:41 --> Unable to connect to the database.
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Models\GaleryModel.php(20): CodeIgniter\BaseModel->findAll()
+#5 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(25): App\Models\GaleryModel->getGalery()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-04-02 01:55:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::order_by()
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(25): App\Models\GaleryModel->getGalery()
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-04-02 01:55:54 --> Call to undefined method App\Models\GaleryModel::order_by
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Models\GaleryModel.php(19): CodeIgniter\Model->__call('order_by', Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(25): App\Models\GaleryModel->getGalery()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2021-04-02 02:45:22 --> Undefined property: App\Controllers\Pages::$Galery
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-04-02 02:45:43 --> Undefined property: App\Controllers\Pages::$Pages
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-04-02 02:46:03 --> Undefined property: App\Controllers\Pages::$Galery
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-04-02 02:46:20 --> Class name must be a valid object or a string
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-02 02:46:33 --> Undefined property: App\Controllers\Pages::$Index
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-04-02 02:48:31 --> Class 'App\Controllers\DB' not found
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-02 02:51:25 --> Call to a member function sortByDesc() on array
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-02 02:55:43 --> Undefined variable: builder
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 23, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-04-02 03:01:23 --> Invalid argument supplied for foreach()
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laragon\\www\\...', 148, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(42): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-02 03:03:25 --> Call to a member function ordered() on array
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-02 03:03:38 --> Call to undefined function App\Controllers\ordered()
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-02 03:05:49 --> Cannot use object of type stdClass as array
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(42): view('pages/home')
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2021-04-02 03:06:11 --> Cannot use object of type stdClass as array
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(42): view('pages/home')
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2021-04-02 03:08:37 --> Invalid argument supplied for foreach()
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\home.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laragon\\www\\...', 148, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(41): view('pages/home')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-02 03:13:41 --> Undefined property: App\Controllers\Pages::$db
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 40, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-04-02 03:14:37 --> Too few arguments to function App\Controllers\Pages::index(), 0 passed in C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-02 03:17:29 --> Undefined property: App\Controllers\Pages::$db
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 41, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-04-02 03:18:54 --> Undefined property: App\Controllers\Pages::$db
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 41, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-04-02 03:45:33 --> Call to undefined method App\Models\GaleryModel::getResult
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(19): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(908): App\Controllers\Pages->__construct()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-04-02 03:47:56 --> Call to undefined method App\Models\GaleryModel::getResult
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(36): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-04-02 03:48:30 --> Call to undefined method App\Models\GaleryModel::getResult
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(36): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-04-02 03:49:14 --> Call to undefined method App\Models\GaleryModel::getResult
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(36): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-04-02 03:50:08 --> Undefined variable: query
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 41, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-04-02 03:53:59 --> Call to undefined method App\Models\GaleryModel::getResult
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(38): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+ERROR - 2021-04-02 05:07:38 --> mysqli_sql_exception: Unknown column 'id' in 'order clause' in C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(6, 0)
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\BaseModel.php(1144): CodeIgniter\BaseModel->findAll(6, 0)
+#7 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(37): CodeIgniter\BaseModel->paginate(6)
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2021-04-02 05:07:38 --> Unknown column 'id' in 'order clause'
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(6, 0)
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\BaseModel.php(1144): CodeIgniter\BaseModel->findAll(6, 0)
+#7 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(37): CodeIgniter\BaseModel->paginate(6)
+#8 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->index()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#10 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#13 {main}

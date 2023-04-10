@@ -1,0 +1,16 @@
+CRITICAL - 2021-06-10 15:43:58 --> Trying to access array offset on value of type null
+#0 C:\laragon\www\CI4SIKATAR\app\Controllers\Administrator.php(388): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\laragon\\www\\...', 388, Array)
+#1 C:\laragon\www\CI4SIKATAR\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->hapusberita('6')
+#2 C:\laragon\www\CI4SIKATAR\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SIKATAR\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SIKATAR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SIKATAR\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-06-10 15:44:04 --> Trying to access array offset on value of type null
+#0 C:\laragon\www\CI4SIKATAR\app\Controllers\Administrator.php(388): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\laragon\\www\\...', 388, Array)
+#1 C:\laragon\www\CI4SIKATAR\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->hapusberita('6')
+#2 C:\laragon\www\CI4SIKATAR\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SIKATAR\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SIKATAR\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SIKATAR\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}

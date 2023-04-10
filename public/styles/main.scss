@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: Poppins;
+}
+
+.navbar {
+    position: sticky;
+
+    li {
+        color: white;
+
+        &:hover {
+            font-weight: bolder;
+            color: white;
+        }
+    }
+}
+
+.navbartop {
+    background: #258724;
+}
+
+.navbardown {
+    background: #3EA74B;
+    top: 0;
+    padding: 5px;
+    z-index: 99;
+}
+
+.navtext {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+// HEADER
+header {
+    padding: 100px 0px 100px;
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+    color: white;
+    padding-bottom: 135px;
+
+    h1 {
+        padding: 15px;
+    }
+
+    .btn-get-started {
+        color: white;
+
+        &:hover {
+            background-color: #d44f01;
+            color: white;
+        }
+    }
+}
+
+// STATS
+.covid {
+    margin-top: -90px;
+    border-radius: 10px;
+    background-color: #3EA74B;
+    text-align: center;
+
+    .cov-jud {
+        padding: 10px;
+        font-weight: bolder;
+        background-color: #3EA74B;
+        color: white;
+    }
+
+    .cov-head {
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+
+    p {
+        font-weight: lighter;
+    }
+}
+
+// BERITA
+
+.section-berita {
+    min-height: 540px;
+    background-color: #f1eeee;
+    margin-top: -400px;
+    z-index: -1;
+    position: relative;
+    padding-bottom: 50px;
+
+}
+
+.section-berita-heading {
+    margin-top: 450px;
+    margin-bottom: 20px;
+
+    h2 {
+        font-weight: bold;
+    }
+}
+
+.card {
+    border-radius: 10px;
+
+    .card-img-top {
+        border-radius: 10px 10px 0px 0px;
+    }
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/pemdes.png");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+// SAMBUTAN
+
+.section-sambutan {
+    margin-bottom: -50px;
+
+    h3 {
+        font-weight: bold;
+        color: white;
+    }
+
+
+    h2 {
+        font-weight: bold;
+        margin-bottom: 30px;
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
+
+    img {
+        border-radius: 10px;
+        margin-bottom: 25px;
+        width: 200px;
+    }
+}
+
+.section-galery {
+    margin-top: 30px;
+    // background-color: #f1eeee;
+    margin-bottom: -50px;
+    padding-top: -20px;
+    padding-bottom: 30px;
+
+    h2 {
+        margin-top: 50px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+}
+
+.social {
+    margin-top: 50px;
+
+    .btn {
+        background-color: #3EA74B;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    h2 {
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+}
+
+.social {
+    padding: 50px;
+
+}
+
+.main-footer {
+    margin-top: 50px;
+    padding: 50px;
+    height: 900px;
+    color: white;
+    background-color: #258724;
+
+    .btn {
+        color: white;
+    }
+}
+
+.mapsggl {
+    margin-left: -25px;
+}
+
+.ig-thumbnail {
+    width: 100px;
+    height: 100px;
+    float: left;
+    overflow: hidden;
+
+    img {
+        width: 100px;
+    }
+}
+
+.sejarah {
+    background-image: url("../images/sejarah.png");
+    background-position: center;
+    background-position-y: -150px;
+    background-size: 1000px;
+    height: 160px;
+    margin-bottom: 20px;
+
+    h3 {
+        font-weight: bold;
+        color: white;
+    }
+}
+
+.tentang {
+    background-image: url("../images/tentang.png");
+    background-position: center;
+    background-position-y: -550px;
+    background-size: cover;
+    height: 160px;
+    margin-bottom: 20px;
+
+    h3 {
+        font-weight: bold;
+        color: white;
+    }
+}
+
+.galery {
+    background-image: url("../images/galery.png");
+    background-position: center;
+    background-size: cover;
+    height: 160px;
+    margin-bottom: 20px;
+
+    h3 {
+        font-weight: bold;
+        color: white;
+    }
+}
+
+.demografi {
+    background-image: url("../images/demog.png");
+    background-position: center;
+    background-size: cover;
+    height: 160px;
+    margin-bottom: 20px;
+
+    h3 {
+        font-weight: bold;
+        color: white;
+    }
+}
+
+
+.struktur {
+    background-image: url("../images/struktur.png");
+    background-position: center;
+    background-position-y: -150px;
+    background-size: 1000px;
+    height: 160px;
+    margin-bottom: 20px;
+
+    h3 {
+        font-weight: bold;
+        color: white;
+    }
+}
+
+.visimisi {
+    background-image: url("../images/visimisi.png");
+    background-position: center;
+    background-size: cover;
+    height: 160px;
+    margin-bottom: 20px;
+
+    h3 {
+        font-weight: bold;
+        color: white;
+    }
+}
+
+// ADMINISTRATOR
+
+.sampul {
+    width: 100px;
+}
+
+.table>tbody>tr>* {
+    vertical-align: middle;
+}
+
+/*untuk layar device berukuran sedang*/
+@media (min-width: 768px) {
+    .mapsggl {
+        margin-top: -150px;
+        margin-left: 40px;
+    }
+
+    .section-sambutan {
+
+        img {
+            width: 20%;
+        }
+    }
+
+    .main-footer {
+        margin-top: 50px;
+        padding: 50px;
+        height: 500px;
+        color: white;
+        background-color: #258724;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .mapsggl {
+        margin-top: -150px;
+        margin-left: 250px;
+    }
+
+
+
+    .section-sambutan {
+
+        img {
+            width: 20%;
+        }
+    }
+
+    .covid {
+        margin-top: -90px;
+        border-radius: 10px;
+        background-color: #3EA74B;
+        text-align: center;
+
+        .cov-jud {
+            padding: 10px;
+            font-weight: bolder;
+            background-color: #3EA74B;
+            color: white;
+        }
+
+        .cov-head {
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .cov-pos {
+            border-radius: 0px 0px 0px 10px;
+        }
+
+        .cov-sb {
+            border-radius: 0px 0px 0px 0px;
+        }
+
+        .cov-mg {
+            border-radius: 0px 0px 10px 0px;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        h3 {
+            margin-bottom: 0;
+            font-size: 20px;
+        }
+
+        p {
+            font-weight: lighter;
+        }
+    }
+}

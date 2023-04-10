@@ -1,0 +1,466 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: Poppins;
+}
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.navbar li {
+  color: white;
+}
+
+.navbar li:hover {
+  font-weight: bolder;
+  color: white;
+}
+
+.navbartop {
+  background: #0067C7;
+}
+
+.navbardown {
+  background: #008DF3;
+  top: 0;
+  padding: 5px;
+  z-index: 99;
+}
+
+.navtext {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+header {
+  padding: 100px 0px 100px;
+  background-image: url("../images/sikatar/Slide1.JPG");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding-bottom: 500px;
+}
+
+header h1 {
+  padding: 15px;
+}
+
+header .btn-get-started {
+  color: white;
+}
+
+header .btn-get-started:hover {
+  background-color: #d44f01;
+  color: white;
+}
+
+.covid {
+  margin-top: -90px;
+  border-radius: 0px;
+  background-color: #008DF3;
+  text-align: center;
+  z-index: 10;
+}
+
+.covid .cov-jud {
+  padding: 10px;
+  font-weight: bolder;
+  background-color: #008DF3;
+  color: white;
+}
+
+.covid .cov-head {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.covid h2 {
+  font-size: 30px;
+}
+
+.covid h3 {
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.covid p {
+  font-weight: lighter;
+}
+
+.section-berita {
+  min-height: 540px;
+  background-color: #f1eeee;
+  position: relative;
+  padding-bottom: 50px;
+  margin-top: -350px;
+  z-index: 8;
+}
+
+.section-berita-heading {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.section-berita-heading h2 {
+  font-weight: bold;
+}
+
+.card {
+  border-radius: 0px;
+}
+
+.card .card-img-top {
+  border-radius: 0px 0px 0px 0px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../images/sikatar/Slide3.JPG.png");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-sambutan {
+  margin-bottom: -50px;
+}
+
+.section-sambutan h3 {
+  font-weight: bold;
+  color: white;
+}
+
+.section-sambutan h2 {
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.section-sambutan p {
+  color: white;
+}
+
+.section-sambutan img {
+  border-radius: 0px;
+  margin-bottom: 25px;
+  width: 200px;
+}
+
+.section-galery {
+  margin-top: 30px;
+  margin-bottom: -50px;
+  padding-top: -20px;
+  padding-bottom: 30px;
+}
+
+.section-galery h2 {
+  margin-top: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.social {
+  margin-top: 50px;
+}
+
+.social .btn {
+  background-color: #008DF3;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 0px;
+}
+
+.social h2 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.social {
+  padding: 50px;
+}
+
+.main-footer {
+  margin-top: 50px;
+  padding: 50px;
+  height: 900px;
+  color: white;
+  background-color: #0067C7;
+}
+
+.main-footer .btn {
+  color: white;
+}
+
+.mapsggl {
+  margin-left: -25px;
+}
+
+.ig-thumbnail {
+  width: 100px;
+  height: 100px;
+  float: left;
+  overflow: hidden;
+}
+
+.ig-thumbnail img {
+  width: 100px;
+}
+
+.sejarah {
+  background-image: url("../images/sejarah.png");
+  background-position: center;
+  background-position-y: -150px;
+  background-size: 1000px;
+  height: 160px;
+  margin-bottom: 20px;
+}
+
+.sejarah h3 {
+  font-weight: bold;
+  color: white;
+}
+
+.tentang {
+  height: 100px;
+}
+
+.tentang h3 {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.galery {
+  height: 150px;
+}
+
+.galery h3 {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.berita {
+  height: 150px;
+}
+
+.berita h3 {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.demografi {
+  background-image: url("../images/demog.png");
+  background-position: center;
+  background-size: cover;
+  height: 160px;
+  margin-bottom: 20px;
+}
+
+.demografi h3 {
+  font-weight: bold;
+  color: white;
+}
+
+.struktur {
+  height: 150px;
+}
+
+.struktur h3 {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.img-zoom-container {
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 40px;
+  height: 40px;
+}
+
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 300px;
+  height: 300px;
+}
+
+.visimisi {
+  height: 150px;
+}
+
+.visimisi h3 {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.sampul {
+  width: 100px;
+}
+
+.table>tbody>tr>* {
+  vertical-align: middle;
+}
+
+/* .imgberita {
+  margin-left: 180px;
+  margin-top: 10px;
+} */
+
+/*untuk layar device berukuran sedang*/
+@media (min-width: 768px) {
+  .mapsggl {
+    margin-top: -150px;
+    margin-left: 40px;
+  }
+
+  header {
+    padding: 100px 0px 100px;
+    background-image: url("../images/sikatar/Slide1.JPG");
+    background-size: cover;
+    background-position: top;
+    color: white;
+    padding-bottom: 135px;
+  }
+
+  .section-sambutan img {
+    width: 20%;
+  }
+
+  .main-footer {
+    margin-top: 50px;
+    padding: 50px;
+    height: 500px;
+    color: white;
+    background-color: #0067C7;
+  }
+
+  .section-berita {
+    min-height: 540px;
+    background-color: #f1eeee;
+    position: relative;
+    padding-bottom: 50px;
+    margin-top: -320px;
+    z-index: 8;
+  }
+
+  .section-berita-heading {
+    margin-top: 350px;
+    margin-bottom: 20px;
+  }
+
+  /* 
+  .imgberita {
+    margin-left: 90px;
+    margin-top: 10px;
+  } */
+
+}
+
+@media (min-width: 992px) {
+  .mapsggl {
+    margin-top: -150px;
+    margin-left: 250px;
+  }
+
+  .section-sambutan img {
+    width: 20%;
+  }
+
+  .covid {
+    margin-top: -90px;
+    border-radius: 0px;
+    background-color: #008DF3;
+    text-align: center;
+  }
+
+  .covid .cov-jud {
+    padding: 10px;
+    font-weight: bolder;
+    background-color: #008DF3;
+    color: white;
+  }
+
+  .covid .cov-head {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .covid .cov-pos {
+    border-radius: 0px 0px 0px 00px;
+  }
+
+  .covid .cov-sb {
+    border-radius: 0px 0px 0px 0px;
+  }
+
+  .covid .cov-mg {
+    border-radius: 0px 0px 00px 0px;
+  }
+
+  .covid h2 {
+    font-size: 30px;
+  }
+
+  .covid h3 {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+
+  .covid p {
+    font-weight: lighter;
+  }
+
+  .section-berita {
+    min-height: 540px;
+    background-color: #f1eeee;
+    position: relative;
+    padding-bottom: 50px;
+    margin-top: -75px;
+    z-index: 8;
+  }
+
+  .section-berita-heading {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  header {
+    padding-bottom: 200px;
+  }
+
+  /* 
+  .bdycard {
+    padding: 20px;
+  }
+
+  .beritabdy {
+    margin-top: -180px;
+    margin-left: 150px;
+  } */
+
+  /* .imgberita {
+    margin-left: 0px;
+    margin-top: 0px;
+  } */
+
+}
+
+/*# sourceMappingURL=main.css.map */

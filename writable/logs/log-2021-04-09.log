@@ -1,0 +1,341 @@
+CRITICAL - 2021-04-09 02:00:13 --> Undefined property: CodeIgniter\View\View::$db
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\administrator\index.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 87, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('administrator/i...', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(36): view('administrator/i...')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->index()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2021-04-09 03:15:46 --> Error connecting to the database: Class 'SQLite3' not found
+CRITICAL - 2021-04-09 03:26:26 --> Declaration of Myth\Auth\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-09 03:50:32 --> Undefined property: Myth\Auth\Config\Auth::$requireActivation
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\myth\auth\src\Controllers\AuthController.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 170, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->attemptRegister()
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-04-09 04:12:28 --> Declaration of Myth\Auth\Filters\RoleFilter::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response) must be compatible with CodeIgniter\Filters\FilterInterface::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-09 04:13:47 --> Declaration of Myth\Auth\Filters\RoleFilter::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response) must be compatible with CodeIgniter\Filters\FilterInterface::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-09 04:16:13 --> Declaration of Myth\Auth\Filters\RoleFilter::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response) must be compatible with CodeIgniter\Filters\FilterInterface::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-09 04:16:53 --> Declaration of Myth\Auth\Filters\RoleFilter::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response) must be compatible with CodeIgniter\Filters\FilterInterface::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-09 04:18:20 --> You do not have sufficient permissions to access that page.
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('administrator/i...', 'before')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-09 04:22:22 --> You do not have sufficient permissions to access that page.
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('administrator', 'before')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-09 04:22:51 --> You do not have sufficient permissions to access that page.
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('administrator', 'before')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-09 04:34:43 --> You do not have sufficient permissions to access that page.
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('user', 'before')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-09 04:34:51 --> You do not have sufficient permissions to access that page.
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('administrator/u...', 'before')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-09 04:35:38 --> You do not have sufficient permissions to access that page.
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('administrator/t...', 'before')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-09 04:36:03 --> You do not have sufficient permissions to access that page.
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('administrator', 'before')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-09 04:36:12 --> You do not have sufficient permissions to access that page.
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('administrator/i...', 'before')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-09 04:39:29 --> You do not have sufficient permissions to access that page.
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('administrator', 'before')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-09 04:41:45 --> Undefined variable: currentPage
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\administrator\admuserlist.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 21, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('administrator/a...', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(559): view('administrator/a...')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->userlist()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-09 04:42:00 --> Undefined variable: currentPage
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\administrator\admuserlist.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 21, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('administrator/a...', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(559): view('administrator/a...')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->userlist()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-09 04:42:06 --> Undefined variable: currentPage
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\administrator\admuserlist.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 21, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('administrator/a...', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(559): view('administrator/a...')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->userlist()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-09 04:42:10 --> Undefined variable: currentPage
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\administrator\admuserlist.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 21, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('administrator/a...', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(559): view('administrator/a...')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->userlist()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-09 04:43:42 --> Undefined variable: currentPage
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\administrator\admuserlist.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 21, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('administrator/a...', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(559): view('administrator/a...')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->userlist()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2021-04-09 05:17:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`users`.`group_id`)' at line 4 in C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `users`....')
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(566): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->userlist()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-09 05:17:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`users`.`group_id`)' at line 4
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `users`....')
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(566): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->userlist()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2021-04-09 05:27:31 --> mysqli_sql_exception: Unknown column 'auth_groups_users.groups.groups_id' in 'on clause' in C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `users`....')
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(566): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->userlist()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-09 05:27:31 --> Unknown column 'auth_groups_users.groups.groups_id' in 'on clause'
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `users`....')
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(566): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->userlist()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2021-04-09 05:28:16 --> mysqli_sql_exception: Unknown column 'auth_groups_users.groups_id' in 'on clause' in C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `users`....')
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(566): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->userlist()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-09 05:28:16 --> Unknown column 'auth_groups_users.groups_id' in 'on clause'
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `users`....')
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(566): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->userlist()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-09 05:55:31 --> You do not have sufficient permissions to access that page.
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('administrator', 'before')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-09 05:55:43 --> You do not have sufficient permissions to access that page.
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('administrator', 'before')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-09 05:56:33 --> You do not have sufficient permissions to access that page.
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('administrator/u...', 'before')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-09 05:57:00 --> You do not have sufficient permissions to access that page.
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('administrator/d...', 'before')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-09 05:57:03 --> You do not have sufficient permissions to access that page.
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('administrator', 'before')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-09 06:12:50 --> You do not have sufficient permissions to access that page.
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('user', 'before')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-09 06:17:53 --> You do not have sufficient permissions to access that page.
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('administrator', 'before')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-09 06:33:52 --> Trying to access array offset on value of type null
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\laragon\\www\\...', 157, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->hapusgalery('2')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-04-09 07:28:39 --> You do not have sufficient permissions to access that page.
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('administrator', 'before')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-09 07:29:00 --> You do not have sufficient permissions to access that page.
+#0 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('administrator/p...', 'before')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-04-09 10:20:02 --> Trying to get property 'username' of non-object
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\pages\aspirasi.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 38, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/aspirasi', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Pages.php(174): view('pages/aspirasi')
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Pages->aspirasi()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-09 10:37:26 --> Undefined variable: user
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\layout\admheader.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 181, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layout/admheade...', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(546): view('layout/admheade...', Array)
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->user()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-04-09 10:39:17 --> Undefined variable: users
+#0 C:\laragon\www\CI4SISFORDES-KB\app\Views\layout\admheader.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 181, Array)
+#1 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layout/admheade...', Array, true)
+#4 C:\laragon\www\CI4SISFORDES-KB\app\Controllers\Administrator.php(546): view('layout/admheade...', Array)
+#5 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Administrator->user()
+#6 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#7 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CI4SISFORDES-KB\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\CI4SISFORDES-KB\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
